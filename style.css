@@ -87,3 +87,23 @@ body{
     line-height: 150%;
     color: var(--cinza-secundario);
 }
+
+.botao__telas{
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.dispositivos{
+    text-align: center;
+    height: 100vh;
+}
+
+.dispositivos__titulo{
+    margin-bottom: 40px;
+}
+
+.container__dispositivos{
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+}
