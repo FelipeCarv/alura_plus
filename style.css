@@ -11,9 +11,12 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
-*{
+
+*, a{
     margin: 0;
     padding: 0;
+    list-style-type: none;
+    text-decoration: none;
 }
 
 .container{
@@ -106,4 +109,33 @@ body{
     display: flex;
     gap: 120px;
     justify-content: center;
+}
+
+.footer{
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.footer img{
+    margin-bottom: 40px;
+}
+
+.lista__footer ul{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.lista__footer ul li a{
+    color: var(--branco-principal);
+}
+
+.footer__texto{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--cinza-secundario);
+    margin: 0 1rem 2rem 1rem
 }
