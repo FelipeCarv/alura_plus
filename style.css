@@ -63,10 +63,19 @@ body{
     text-align: center;
 }
 
+.container__botao:hover{
+    background-color:#085fca;
+}
+
 .botao__secundario{
     background-color: transparent;
     border: 1px solid #FFFFFF;
     margin-top: 1rem;
+}
+
+.botao__secundario:hover{
+    background-color: transparent;
+
 }
 
 .container__caixa{
@@ -138,4 +147,8 @@ body{
     line-height: 150%;
     color: var(--cinza-secundario);
     margin: 0 1rem 2rem 1rem
+}
+
+.lista__footer ul li a:hover{
+   color: var(--cinza-secundario);
 }
